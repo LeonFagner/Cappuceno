@@ -3,7 +3,7 @@
 import { Saira_Stencil_One } from 'next/font/google';
 import React from 'react';
 import styled from "styled-components";
-import { PrimaryInput, PrimaryInputSearchIcon } from './Primary-input';
+import { PrimaryInput, PrimaryInputSearchIcon } from '../Primary-input';
 import { CartControl } from '../CartControl';
 
 const sairaStencil = Saira_Stencil_One({
@@ -19,9 +19,9 @@ const MyHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  height: 70px;
   color: black;
-  padding: 20px 160px;
+  padding: 34px 160px;
 
   > div{
     display: flex;

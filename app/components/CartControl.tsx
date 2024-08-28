@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 import { useLocalStorage } from "../hooks/useLocalStorage";
-import { CartIcon } from "./Header/Cart-icon";
+import { CartIcon } from "./Cart-icon";
 
 const CartCount = styled.span`
     width: 19px;

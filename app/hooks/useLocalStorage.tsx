@@ -1,4 +1,4 @@
-import { loadBindings } from "next/dist/build/swc";
+
 import { useEffect, useState } from "react";
 
 export function useLocalStorage<T>(item: string, initialValue: T){
